@@ -9,6 +9,7 @@ class Person
     @last_name=last_name
   end
   def name"#{@first_name} #{@last_name}".strip
+  end
   def talk()
     puts "Hello World!"
   end
